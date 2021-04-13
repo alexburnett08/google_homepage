@@ -71,3 +71,42 @@ a {
     
 }
 
+#logo {
+    display: block;
+    margin: 12.5% auto 0;
+}
+
+.search-container {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#search {
+    margin: 20px auto;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    font-weight: 300;
+    width: 45%;
+    padding: 10px;
+    padding-left: 50px;
+    border-radius: 50px ;
+}   
+
+#search:hover {
+    box-shadow: 0px 1px 1px   rgba(0, 0, 0, 0.116);
+}
+
+#mic {
+    position: relative;
+    right: 26%;
+    color:  rgba(0, 0, 0, 0.35);
+}
+
+#zoom {
+    position: relative;
+    left: 26%;
+    color:  rgba(0, 0, 0, 0.35);
+}
