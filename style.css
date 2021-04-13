@@ -68,7 +68,11 @@ a {
    color: white;
    font-weight: 700;
    font-size: 13px;
-    
+}
+
+#sign-in:hover{
+    text-decoration: none;
+    cursor: pointer;
 }
 
 #logo {
@@ -95,6 +99,10 @@ a {
     border-radius: 50px ;
 }   
 
+#search:focus {
+    outline: none;
+}
+
 #search:hover {
     box-shadow: 0px 1px 1px   rgba(0, 0, 0, 0.116);
 }
@@ -109,4 +117,75 @@ a {
     position: relative;
     left: 26%;
     color:  rgba(0, 0, 0, 0.35);
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+}
+.buttons {
+    margin-top: 15px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    display: inline-block;
+    background-color:rgba(0, 0, 0, 0.041);;
+    border: white;
+    padding: 8px 25px;
+    color:rgba(0, 0, 0, 0.6) ;
+    
+}
+
+.buttons:hover{
+    box-shadow: 0px 0px 2px 0px   rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+    color: black;
+    cursor: pointer;
+
+}
+
+#footer-container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    float: bottom;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    height: 7%;
+}
+
+.footer-left{
+   display: flex;
+   align-content: center;
+   flex-grow: 1;
+}
+
+.footer-right{
+    display: flex;
+   justify-content: right;
+    flex-basis: 50%;
+    flex-shrink: 0;
+  }
+  
+  .footer-left > a {
+    padding-left: 4%;
+  }
+
+  .footer-right > a {
+    padding-right: 4%;
+  }
+
+
+  .footer-right a , .footer-left a{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 13px;
+    display: inline-block;
+}
+
+
+.footer-right a:hover , .footer-left a:hover{
+    text-decoration: underline;
 }
