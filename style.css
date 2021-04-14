@@ -155,6 +155,7 @@ a {
     align-items: center;
     background-color: #f2f2f2;
     height: 7%;
+    flex-wrap: wrap;
 }
 
 .footer-left{
@@ -189,3 +190,12 @@ a {
 .footer-right a:hover , .footer-left a:hover{
     text-decoration: underline;
 }
+
+@media (max-width:720px) {
+    .footer-left , .footer-right {
+        flex-basis: 100%;
+        flex-grow: 1;
+        justify-content: space-evenly;
+    }
+}
+
