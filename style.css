@@ -164,8 +164,8 @@ a {
 
 .footer-right{
     display: flex;
-   justify-content: right;
     flex-basis: 50%;
+    justify-content: flex-end;
     flex-shrink: 0;
   }
   
@@ -195,5 +195,11 @@ a {
         flex-grow: 1;
         justify-content: space-evenly;
     }
+
+    
+    .footer-left a, .footer-right a {
+            text-align: center;
+        }
+
 }
 
