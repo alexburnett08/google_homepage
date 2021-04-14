@@ -151,8 +151,6 @@ a {
     display: flex;
     float: bottom;
     align-content: center;
-    justify-content: space-between;
-    align-items: center;
     background-color: #f2f2f2;
     height: 7%;
     flex-wrap: wrap;
